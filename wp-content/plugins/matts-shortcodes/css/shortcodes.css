@@ -45,6 +45,35 @@ table {
 /* end reset 
 --------------------------*/
 
+/* COVER OVERLAY STYLES
+------------------------------------------*/
+
+#cover {
+  background: #002a60;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+
+#cover .fa-spinner {
+	font-size: 30px;
+	color: #ffe813;
+}
+
+.loader-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+/* END COVER OVERLAY STYLES
+------------------------------------------*/
+
 .members-container h1 {
 	font-family: 'Proxima Nova', sans-serif;
 	text-align: center;

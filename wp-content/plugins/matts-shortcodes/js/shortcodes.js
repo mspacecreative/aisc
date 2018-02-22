@@ -37,9 +37,6 @@ $('.members-container').find('.member h1, .dot-button').click(function(){
  
  $('.member:even').after('<div class="spacer"></div><div class="spacer"></div>');
  
- //$('.slider:even').addClass('slider-right');
- //$('.slider:odd').addClass('slider-left');
- 
  $('.member:even').addClass('member-left');
  $('.member:odd').addClass('member-right');
  
@@ -57,6 +54,9 @@ $(document).ready(function() {
  	  img.replaceWith(div);
  	});
  	
- 	
- 	
+ 	$('#cover').fadeIn(500);
+ });
+ 
+ $(window).load(function(){
+     $('#cover').fadeOut(500);
  });
