@@ -15,6 +15,8 @@
  
  function mobilenavPlugin() {
  	ob_start(); ?>
+ <div class="body-overlay"></div>	
+ 	
  <button class="hamburger hamburger--squeeze nav-down" type="button">
  	 <span class="hamburger-box">
  	    <span class="hamburger-inner"></span>
