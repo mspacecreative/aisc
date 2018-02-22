@@ -1,7 +1,7 @@
 // PAGE CONTAINER BOTTOM MARGIN TO CLEAR FOOTER
-function clearFooter() {
+/*function clearFooter() {
 	$('#page-container').css('margin-bottom', $('#main-footer').outerHeight());
-}
+}*/
 
 function mainContentPadding() {
 	$('#main-content > .container').css('padding-top', $('#main-header').outerHeight() + 50);
