@@ -19,7 +19,7 @@ $('.mobile-nav li > a').click(function() {
 
 // HAMBURGER VERTICAL ALIGN
 function hamburgerIcon() {
-	$('.hamburger').css('height', $('header').outerHeight());
+	$('.hamburger').css('height', $('header').height());
 }
 
 $(document).ready(function () {

@@ -81,22 +81,6 @@ p:last-child {
 	background-color: rgba(20, 50, 130, .85);
 }
 
-.container {
-	width: 90%;
-	max-width: 1280px;
-}
-
-.et_post_meta_wrapper {
-	width: 30%;
-	float: left;
-}
-
-.et_pb_post .entry-content {
-	float: right;
-	width: 70%;
-	padding: 0 0 0 5%;
-}
-
 #page-container {
 	padding-top: 0!important;
 }
@@ -112,7 +96,7 @@ p:last-child {
 	background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(255, 255, 255, 0));
 }
 
-#main-header .container, footer .container {
+#main-header .container, footer .container, .container {
 	max-width: 1280px;
 	margin: auto;
 	width: 90%;
@@ -248,6 +232,17 @@ footer #footer-widgets .menu li {
 
 #footer-widgets {
 	padding-top: 30px;
+}
+
+.et_post_meta_wrapper {
+	width: 30%;
+	float: left;
+}
+
+.et_pb_post .entry-content {
+	float: right;
+	width: 70%;
+	padding: 0 0 0 5%;
 }
 
 .et_pb_gutters3 .footer-widget {

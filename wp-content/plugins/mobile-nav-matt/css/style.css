@@ -58,13 +58,14 @@
 }
 
 body .hamburger {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 15px 20px;
+	position: fixed;
+	top: 15px;
+	right: 5%;
+	padding: 15px 0 15px 18px;
 	display: table;
 	z-index: 99999;
 	transition: 0.5s ease-in-out;
+	border-radius: 10px 0 0 10px;
 }
 
 body .hamburger:hover {
@@ -72,10 +73,10 @@ body .hamburger:hover {
 }
 
 .hamburger.reveal {
-	position: fixed;
 	transition: 0.5s ease-in-out;
 	background-color: #002a60;
-	border-radius: 0 0 0 15px;
+	right: 0;
+	padding-right: 18px;
 }
 
 .hamburger.is-active {
@@ -83,13 +84,15 @@ body .hamburger:hover {
 	transition: 0.5s ease-in-out;
 }
 
-.hamburger-box {
+body .hamburger-box {
 	display: table-cell;
 	vertical-align: middle;
+	width: 30px;
 }
 
 body .hamburger-inner, body .hamburger-inner:after, body .hamburger-inner:before {
 	background: #fff;
+	width: 30px;
 }
 
 @media (min-width: 1081px) {
