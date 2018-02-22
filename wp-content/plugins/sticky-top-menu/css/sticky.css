@@ -21,8 +21,8 @@
 	padding: 0 15px;
 }
 
-@media (max-width: 981px) {
+@media (max-width: 1080px) {
 	.stickymenu {
-		display: none;
+		display: none!important;
 	}
 }

@@ -31,7 +31,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 			<div id="left-area">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php if (et_get_option('divi_integration_single_top') <> '' && et_get_option('divi_integrate_singletop_enable') == 'on') echo(et_get_option('divi_integration_single_top')); ?>
-				<article id="post-<?php the_ID(); ?>" <?php post_class( 'et_pb_post' ); ?>>
+				<article id="post-<?php the_ID(); ?>" <?php post_class( 'et_pb_post clearfix' ); ?>>
 					<?php if ( ( 'off' !== $show_default_title && $is_page_builder_used ) || ! $is_page_builder_used ) { ?>
 						<div class="et_post_meta_wrapper">
 
@@ -64,9 +64,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 								}
 							?>
 							
-							<span style="margin-top: 15px; display: block;"><?php post_meta(); ?></span>
-							
-							<h1 class="entry-title"><?php the_title(); ?></h1>
+							<span style="display: block;"><?php post_meta(); ?></span>
 
 							<?php
 								$text_color_class = et_divi_get_post_text_color();
@@ -120,6 +118,8 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 				<?php  } ?>
 
 					<div class="entry-content">
+					
+					<h1 class="entry-title"><?php the_title(); ?></h1>
 					<?php
 						do_action( 'et_before_content' );
 
