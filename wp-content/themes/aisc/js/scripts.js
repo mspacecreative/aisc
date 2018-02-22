@@ -1,8 +1,3 @@
-// PAGE CONTAINER BOTTOM MARGIN TO CLEAR FOOTER
-/*function clearFooter() {
-	$('#page-container').css('margin-bottom', $('#main-footer').outerHeight());
-}*/
-
 function mainContentPadding() {
 	$('#main-content > .container').css('padding-top', $('#main-header').outerHeight() + 50);
 }
@@ -15,7 +10,6 @@ function viewportHeight() {
 $(document).ready(function () {
     viewportHeight();
     mainContentPadding();
-    clearFooter();
     
     $('.slider').slick({
     	dots: true,
@@ -27,7 +21,6 @@ $(document).ready(function () {
 $(window).resize(function () {
     viewportHeight();
     mainContentPadding();
-    clearFooter();
 });
 
 // SCROLLING VIEWPORT
