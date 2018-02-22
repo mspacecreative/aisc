@@ -119,10 +119,7 @@ h2 {
 
 .members-container {
 	position: relative;
-	/*max-width: 800px;
-	width: 90%;*/
 	margin: auto;
-	font-family: 'Proxima Nova', sans-serif;
 	display: table;
 	width: 100%;
 }

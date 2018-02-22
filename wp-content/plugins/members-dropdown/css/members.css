@@ -62,8 +62,8 @@ h1 {
 	max-width: 800px;
 	margin: auto;
 	width: 90%;
-	font-family: 'proxima-nova', 'Proxima Nova', sans-serif;
 	display: table;
+	font-family: 'proxima-nova', 'Proxima Nova', sans-serif;
 }
 
 .member.reset h1 {
