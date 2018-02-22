@@ -62,7 +62,7 @@ h1 {
 	max-width: 800px;
 	margin: auto;
 	width: 90%;
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: 'proxima-nova', 'Proxima Nova', sans-serif;
 	display: table;
 }
 
