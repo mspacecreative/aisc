@@ -1,0 +1,241 @@
+/*
+ Theme Name:   Association of Industry Sector Councils
+ Theme URI:    http://aisc.ca
+ Description:  AISC custom theme
+ Author:       Matt
+ Author URI:   http://mspacecreative.com
+ Template:     Divi
+ Version:      1.0
+*/
+
+html {
+	background: #000;
+}
+
+body {
+	font-family: "proxima-nova", Proxima Nova, sans-serif;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 900;
+	margin: 0 0 50px;
+	padding-bottom: 0;
+	text-transform: uppercase;
+}
+
+.white-text h2 {
+	color: #fff;
+}
+
+nav li a, .stickymenu a, footer .menu li a {
+	text-transform: uppercase;
+}
+
+p, h3 {
+	padding-bottom: 0;
+	margin: 0 0 15px;
+}
+
+p {
+	font-size: 17px;
+}
+
+.et_pb_button {
+	margin-top: 50px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+.et_pb_promo_description {
+	padding-bottom: 0;
+}
+
+.infographic-overlay-text img {
+	opacity: 0;
+	transition: 1s ease-in-out;
+}
+
+.infographic-overlay-text img.reveal {
+	opacity: 1;
+	transition: 1s ease-in-out;
+}
+
+.splash-graphic-overlay img {
+	max-width: 600px;
+	height: auto;
+	width: 100%;
+}
+
+#recent-news:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background-color: rgba(20, 50, 130, .85);
+}
+
+/*.splash-graphic-overlay {
+	padding: 20% 0 5%;
+	max-width: 1280px;
+	margin: auto;
+}*/
+
+#page-container {
+	padding-top: 0!important;
+	box-shadow: 0px 5px 10px #000;
+}
+
+#main-header {
+	box-shadow: none;
+	background: #00328f;
+	position: absolute;
+	padding: 15px 0;
+}
+
+.home #main-header {
+	background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(255, 255, 255, 0));
+}
+
+#main-header .container, footer .container {
+	max-width: 1280px;
+	margin: auto;
+	width: 90%;
+}
+
+#main-header ul a {
+	color: #fff;
+}
+
+#infographic-section {
+	padding: 10% 0!important;
+}
+
+.infographic-overlay-bg {
+	position: relative;
+}
+
+.infographic-overlay-bg img {
+	opacity: .8;
+	max-height: 500px;
+	width: 90%;
+}
+
+.infographic-overlay-text img {
+	width: 90%;
+}
+
+.wpcf7 p {
+	margin: 0;
+	display: inline-block;
+	font-size: 0;
+}
+
+.wpcf7 input[type=email] {
+	border: none;
+	padding: 5px 10px;
+	margin: 10px 0 0;
+	display: inline-block;
+}
+
+.wpcf7-submit {
+	display: inline-block;
+	border: none;
+	padding: 5px 10px;
+	margin: 0;
+	background: #ffe813;
+	text-transform: uppercase;
+}
+
+.infographic-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+}
+
+.width-90 {
+	width: 90%;
+}
+
+/*---------------------------------------
+---------------FOOTER--------------------
+----------------------------------------*/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+footer:before {
+	position: absolute;
+	background-image: url(img/footer-image-overlay.png);
+	background-repeat: no-repeat;
+	background-position: bottom 30px right;
+	background-size: contain;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	content: '';
+}
+
+#footer-bottom {
+	background: #000;
+	border-top: 1px solid #333;
+	position: relative;
+}
+
+#footer-bottom p {
+	font-size: 13px;
+}
+
+footer #footer-widgets .menu li {
+	display: inline-block;
+	padding: 0 25px 0 0;
+}
+
+#footer-widgets .footer-widget .menu li:before {
+	display: none;
+}
+
+/*#main-footer .footer-widget:nth-child(1) {
+	width: 29.66%;
+}
+
+#main-footer .footer-widget:nth-child(2) {
+	width: 29.66%;
+}
+
+#main-footer .footer-widget:nth-child(3) {
+	width: 29.66%;
+	margin-right: 0;
+}*/
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+/*#main-footer .footer-widget:nth-child(3) {
+	width: 100%!important;
+}*/
+}
+
+@media (min-width: 981px) {
+
+#footer-widgets {
+	padding-top: 30px;
+}
+
+.et_pb_gutters3 .footer-widget {
+	margin-bottom: 30px;
+}
+}

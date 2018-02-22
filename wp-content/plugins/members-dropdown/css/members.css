@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset 
+--------------------------*/
+
+h1 {
+	font-family: 'Proxima Nova', sans-serif;
+	text-align: center;
+	margin: 25px 0;
+	font-size: 2em;
+	font-weight: 900;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.members-container {
+	position: relative;
+	max-width: 800px;
+	margin: auto;
+	width: 90%;
+	font-family: 'Proxima Nova', sans-serif;
+	display: table;
+}
+
+.member.reset h1 {
+	color: #333;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.member {
+	width: 50%;
+	font-weight: 500;
+	line-height: 1.5em;
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.member:nth-child(odd) {
+	padding: 25px 0 25px 25px;
+}
+
+.member:nth-child(even) {
+	padding: 25px 25px 25px 0;
+}
+
+.member:nth-child(odd) .dot-button {
+	position: absolute;
+	left: -10px;
+	top: 50%;
+	background: #999;
+	width: 20px;
+	height: 20px;
+	content: '\f067';
+	font-family: fontAwesome;
+	color: #fff;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.member:nth-child(even), .member:nth-child(even) h1 {
+	text-align: right;
+}
+
+.dot-button {
+	position: absolute;
+	right: -10px;
+	top: 50%;
+	background: #999;
+	width: 20px;
+	height: 20px;
+	content: '\f067';
+	font-family: fontAwesome;
+	color: #fff;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.member.reset:nth-child(odd) .dot-button, .member.reset:nth-child(even) .dot-button {
+	background: #333;
+}
+
+.slider {
+	display: none;
+	width: 100%;
+	position: absolute;
+	right: 100%;
+	margin: 0 25px 0 0;
+	height: 100%;
+	top: 0;
+	background: url(img/o-FISHERIES-facebook.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.slider img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.spacer {
+	height: 50px;
+	width: 50%;
+	display: table-cell;
+}
+
+.spacer:nth-child(even) {
+	float: left;
+}
+
+.spacer:nth-child(odd) {
+	float: right;
+}
+
+.member h1 {
+	font-size: 20px;
+	transition: opacity 0.25s ease-in-out;
+	cursor: pointer;
+	font-weight: normal;
+	text-align: left;
+	margin: 0;
+	color: #999;
+}
+
+.vert-line {
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1%, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+	background: #999;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.member-content {
+	display: none;
+	margin: 15px 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.member, .spacer, .slider {
+		float: none;
+		width: 100%;
+	}
+	
+	.member:nth-child(even) {
+		padding-left: 25px;
+		padding-right: 0;
+	}
+	
+	.vert-line {
+		left: 0;
+	}
+	
+	.member h1, .member {
+		text-align: left!important;
+	}
+	
+	.member:after {
+		left: -5px;
+	}
+	
+	.spacer {
+		display: none;
+	}
+	
+	.slider {
+		left: 0;
+		position: relative;
+		padding: 0;
+		min-height: 250px;
+	}
+	
+	.member:nth-child(even) .dot-button {
+		left: -10px;
+	}
+}

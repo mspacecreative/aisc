@@ -1,0 +1,28 @@
+.stickymenu {
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding: 15px;
+	background: rgba(255, 255, 255, .85);
+	text-align: center;
+	z-index: 9999;
+	transform: translateY(-53px);
+	transition: 0.25s ease-in-out;
+}
+
+.stickymenu.reveal {
+	transform: translateY(0);
+	transition: 0.25s ease-in-out;
+}
+
+.stickymenu ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+@media (max-width: 981px) {
+	.stickymenu {
+		display: none;
+	}
+}
