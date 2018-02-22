@@ -246,5 +246,6 @@ footer #footer-widgets .menu li {
 
 #main-footer:before {
 	background-size: cover;
+	background-position: center;
 }
 }
