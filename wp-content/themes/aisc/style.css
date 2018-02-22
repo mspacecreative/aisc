@@ -266,6 +266,16 @@ footer #footer-widgets .menu li {
 	max-width: none;
 	left: -26.5%;
 }
+
+#splash .et_pb_column {
+	bottom: 25px;
+}
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+	.splash-graphic-overlay img {
+		max-width: 300px;
+	}
 }
 
 @media (min-width: 1600px) {
