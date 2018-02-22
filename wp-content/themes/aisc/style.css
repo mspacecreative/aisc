@@ -261,6 +261,16 @@ footer #footer-widgets .menu li {
 	background-size: cover;
 	background-position: center;
 }
+
+.infographic-overlay-text {
+	border-bottom: .01em solid #f5f5f5;
+}
+
+.infographic-overlay-text img {
+	width: 150%;
+	max-width: 0;
+	left: -25%;
+}
 }
 
 @media (min-width: 1600px) {
