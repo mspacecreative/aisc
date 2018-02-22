@@ -61,7 +61,7 @@ body .hamburger {
 	position: fixed;
 	top: 15px;
 	right: 5%;
-	padding: 15px 0 15px 18px;
+	padding: 15px 0 15px 15px;
 	display: table;
 	z-index: 99999;
 	transition: 0.5s ease-in-out;
@@ -76,7 +76,7 @@ body .hamburger:hover {
 	transition: 0.5s ease-in-out;
 	background-color: #002a60;
 	right: 0;
-	padding-right: 18px;
+	padding-right: 15px;
 }
 
 .hamburger.is-active {
@@ -93,6 +93,10 @@ body .hamburger-box {
 body .hamburger-inner, body .hamburger-inner:after, body .hamburger-inner:before {
 	background: #fff;
 	width: 30px;
+}
+
+body .hamburger-box {
+	height: auto;
 }
 
 @media (min-width: 1081px) {
