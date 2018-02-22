@@ -75,6 +75,7 @@ body .hamburger:hover {
 	position: fixed;
 	transition: 0.5s ease-in-out;
 	background-color: #002a60;
+	border-radius: 0 0 0 15px;
 }
 
 .hamburger.is-active {
