@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font-family: "proxima-nova", Proxima Nova, sans-serif;
+	font-family: "proxima-nova", Proxima Nova, sans-serif!important;
 }
 
 h2 {
