@@ -241,3 +241,10 @@ footer #footer-widgets .menu li {
 	margin-bottom: 30px;
 }
 }
+
+@media (max-width: 812px) {
+
+#main-footer:before {
+	background-size: cover;
+}
+}
