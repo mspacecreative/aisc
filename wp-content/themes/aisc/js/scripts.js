@@ -12,7 +12,6 @@ $(document).ready(function () {
     mainContentPadding();
     
     $('.slider').slick({
-    	dots: true,
     	autoplay: true
     });
 });

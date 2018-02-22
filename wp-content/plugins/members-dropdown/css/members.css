@@ -86,10 +86,12 @@ h1 {
 
 .member:nth-child(odd) {
 	padding: 25px 0 25px 25px;
+	transition: 0.5s ease-in-out;
 }
 
 .member:nth-child(even) {
 	padding: 25px 25px 25px 0;
+	transition: 0.5s ease-in-out;
 }
 
 .member:nth-child(odd) .dot-button {
@@ -135,7 +137,7 @@ h1 {
 	background: #333;
 }
 
-.slider {
+/*.slider {
 	display: none;
 	width: 100%;
 	position: absolute;
@@ -143,9 +145,8 @@ h1 {
 	margin: 0 25px 0 0;
 	height: 100%;
 	top: 0;
-	background: url(img/o-FISHERIES-facebook.jpg) no-repeat center center;
 	background-size: cover;
-}
+}*/
 
 .slider img {
 	max-width: 100%;
