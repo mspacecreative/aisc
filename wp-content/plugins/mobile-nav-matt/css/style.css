@@ -20,7 +20,7 @@
 	transition: 0.5s ease-in-out;
 	height: 100%;
 	top: 0;
-	background: #333;
+	background: #002a60;
 }
 
 .mobile-nav li {
@@ -57,14 +57,24 @@
 	display: none;
 }
 
-.hamburger {
+body .hamburger {
 	position: absolute;
 	top: 0;
-	right: 5%;
-	padding: 0;
+	right: 0;
+	padding: 15px 20px;
 	display: table;
 	z-index: 99999;
 	transition: 0.5s ease-in-out;
+}
+
+body .hamburger:hover {
+	opacity: 1;
+}
+
+.hamburger.reveal {
+	position: fixed;
+	transition: 0.5s ease-in-out;
+	background-color: #002a60;
 }
 
 .hamburger.is-active {

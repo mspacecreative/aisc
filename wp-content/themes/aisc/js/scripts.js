@@ -46,8 +46,8 @@ $(window).on('resize scroll', function() {
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 200) {
-    $('.stickymenu').addClass('reveal');
+    $('.stickymenu, .hamburger').addClass('reveal');
   } else {
-    $('.stickymenu').removeClass('reveal');
+    $('.stickymenu, .hamburger').removeClass('reveal');
   }
 });
