@@ -58,6 +58,10 @@ h2 {
 	text-align: center;
 }
 
+.members-container {
+	font-family: "proxima-nova", Proxima Nova, sans-serif;
+}
+
 .slider .slider-img {
 	background-size: cover;
 	background-attachment: scroll;
