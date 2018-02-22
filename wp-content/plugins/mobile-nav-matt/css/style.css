@@ -8,11 +8,13 @@
 	left: 0;
 	z-index: 1;
 	transition: 0.5s ease-in-out;
+	visibility: hidden;
 }
 
 .is-active .body-overlay {
 	transition: 0.5s ease-in-out;
 	opacity: .85;
+	visibility: visible;
 }
 
 .mobile-nav li.menu-item-has-children span.sub-toggle {
