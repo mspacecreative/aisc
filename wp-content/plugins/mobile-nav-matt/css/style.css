@@ -21,6 +21,7 @@
 	height: 100%;
 	top: 0;
 	background: #002a60;
+	z-index: 999;
 }
 
 .mobile-nav li {

@@ -9,12 +9,12 @@ $(this).children().toggleClass('fa-angle-down fa-angle-up');
 
 // HAMBURGER ICON ANIMATION
 $('.hamburger').click(function() {
-	$('.hamburger, body, #page-container').toggleClass('is-active');
+	$('.hamburger, body').toggleClass('is-active');
 });
 
 // CLOSE PANEL UPON LINK CLICK
 $('.mobile-nav li > a').click(function() {
-	$('.hamburger, body, #page-container').toggleClass('is-active');
+	$('.hamburger, body').toggleClass('is-active');
 });
 
 // HAMBURGER VERTICAL ALIGN
