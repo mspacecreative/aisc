@@ -392,6 +392,8 @@ h2 {
 		margin: auto;
 		width: 100%;
 		height: auto;
+		top: auto;
+		transform: none;
 	}
 	
 	.member:nth-child(even) .dot-button {
