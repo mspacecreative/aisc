@@ -137,17 +137,6 @@ h1 {
 	background: #333;
 }
 
-/*.slider {
-	display: none;
-	width: 100%;
-	position: absolute;
-	right: 100%;
-	margin: 0 25px 0 0;
-	height: 100%;
-	top: 0;
-	background-size: cover;
-}*/
-
 .slider img {
 	max-width: 100%;
 	height: auto;
