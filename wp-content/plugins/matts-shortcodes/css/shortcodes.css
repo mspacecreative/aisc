@@ -299,6 +299,30 @@ h2 {
 	transform: translateX(-50%);
 }
 
+.members-container:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	height: 15px;
+	background: #f5f5f5;
+	width: 4px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.members-container:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 15px;
+	background: #f3f3f3;
+	width: 4px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
 .member-content {
 	display: none;
 	margin: 15px 0;

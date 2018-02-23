@@ -178,17 +178,6 @@ h1 {
 	color: #999;
 }
 
-.vert-line {
-	position: absolute;
-	height: 100%;
-	width: 2px;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1%, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
-	background: #999;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
 .member-content {
 	display: none;
 	margin: 15px 0;

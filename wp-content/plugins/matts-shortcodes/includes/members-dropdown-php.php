@@ -1,6 +1,6 @@
 <h2>MEMBERS DIRECTORY</h2>
 
-<div class="members-container clearfix">
+<div class="members-container">
 	<div class="vert-line"></div>
 	
 	<?php $args = array('post_type' => 'Members', 'order' => 'ASC'); ?>
