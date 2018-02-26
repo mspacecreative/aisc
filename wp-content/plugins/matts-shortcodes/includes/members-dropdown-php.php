@@ -10,7 +10,23 @@
 	<div class="member">
 		<h1><?php the_title(); ?></h1>
 		<div class="member-content">
-			<?php the_content(); ?>
+			<?php 
+			$logo = get_field('member_logo');
+			
+			if( !empty($logo) ): ?>
+			
+				<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" class="member-logo" />
+				
+			<?php endif; ?>
+				
+			<?php the_content(); 
+			
+			$link = get_field('member_link');
+			
+			if ( $link ): ?>
+			<a class="et_pb_button" href="<?php echo $link; ?>" target="_blank">Visit Site</a>
+			<?php endif; ?>
+			
 		</div>
 		<div class="dot-button"><i class="fa fa-plus"></i></div>
 		
@@ -21,14 +37,16 @@
 		
 		if( $images ): ?>
 		
-		<div class="slider">
-			
-			<?php foreach( $images as $image ): ?>
-			<div>
-				<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+		<div class="slider-container">
+			<div class="slider">
+				
+				<?php foreach( $images as $image ): ?>
+				<div>
+					<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+				</div>
+				<?php endforeach; ?>
+				
 			</div>
-			<?php endforeach; ?>
-			
 		</div>
 		
 		<?php endif; ?>

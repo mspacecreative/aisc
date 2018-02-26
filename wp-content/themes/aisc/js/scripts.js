@@ -10,10 +10,6 @@ function viewportHeight() {
 $(document).ready(function () {
     viewportHeight();
     mainContentPadding();
-    
-    $('.slider').slick({
-    	autoplay: true
-    });
 });
 
 // WINDOW RESIZE
