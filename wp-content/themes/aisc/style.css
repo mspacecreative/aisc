@@ -177,6 +177,14 @@ p:last-child {
 	width: 90%;
 }
 
+.infographic-overlay-mobile {
+	display: none;
+}
+
+.infographic-overlay-mobile img {
+	max-width: 70%;
+}
+
 /*#members:before {
 	position: absolute;
 	width: 100%;
@@ -270,6 +278,17 @@ footer #footer-widgets .menu li {
 
 .et_pb_gutters3 .footer-widget {
 	margin-bottom: 30px;
+}
+}
+
+@media (max-width: 812px) and (orientation: portrait) {
+
+.infographic-overlay-mobile {
+	display: block;
+}
+
+.infographic-overlay-text {
+	display: none;
 }
 }
 
