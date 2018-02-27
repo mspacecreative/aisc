@@ -51,7 +51,8 @@ $('.members-container').find('.member h1, .dot-button').click(function(){
  
 $(document).ready(function() {
  	$('.slider').slick({
- 		autoplay: true
+ 		autoplay: true,
+ 		dots: true
  	});
  	
  	$('#cover').fadeIn(500);
