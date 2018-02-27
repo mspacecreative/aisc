@@ -266,12 +266,6 @@ h2 {
 	display: none;
 }
 
-.slider.slick-initialized .slick-slide, .slick-slide {
-  display:block!important;
-  opacity: 1!important;
-  height: 100%!important;
-} 
-
 .slider img {
 	max-width: 100%;
 	height: auto;

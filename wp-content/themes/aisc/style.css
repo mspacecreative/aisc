@@ -9,34 +9,9 @@
 */
 
 @import url("https://use.typekit.net/jaw8bpn.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css");
 
 html {
 	background: #000;
-}
-
-.entry-content ol.flex-control-nav, .entry-content ul.flex-direction-nav, .entry-content ul.slides, .entry-content ul.slides>li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.slider .slick-slide[aria-hidden="true"] {
-    display: block !important;
-    height: 0px;
-    overflow: hidden;
-}
-.slider .slick-slide[aria-hidden="false"] {
-    display: block !important;
-    height: auto;
-}
-
-.flexslider {
-	display: none;
-}
-
-.flex-direction-nav a:before {
-	line-height: 40px;
 }
 
 body {
