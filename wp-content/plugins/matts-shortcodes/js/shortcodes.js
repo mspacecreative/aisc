@@ -21,6 +21,8 @@ $('.members-container').find('.member h1, .dot-button').click(function(){
  	})
  	$(this).not($(this).parent().toggleClass('reset'));
  	
+ 	$('.slider').slick('setPosition');
+ 	
  });
  
  $('.member h1').click(function () {
@@ -32,6 +34,8 @@ $('.members-container').find('.member h1, .dot-button').click(function(){
  		$(this).not($(this).siblings('.dot-button').children('i').removeClass('fa-minus').addClass('fa-plus'));
  	})
  	$(this).not($(this).parent().toggleClass('reset'));
+ 	
+ 	$('.slider').slick('setPosition');
  	
  });
  
