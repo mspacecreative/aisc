@@ -352,7 +352,7 @@ footer #footer-widgets .menu li {
 	}
 	
 	.smooth-scroll-button .fa {
-		bottom: 10px;
+		bottom: 0;
 	}
 }
 
@@ -384,6 +384,6 @@ footer #footer-widgets .menu li {
 @media (max-width: 768px) {
 
 .smooth-scroll-button .fa {
-	bottom: 10px;
+	bottom: 0;
 }
 }
