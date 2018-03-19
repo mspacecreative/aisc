@@ -369,6 +369,19 @@ footer #footer-widgets .menu li {
 	opacity: .85;
 }
 
+#page-container {
+	max-width: 1600px;
+	margin: auto;
+}
+
+body {
+	background: radial-gradient(circle, #666, #000);
+}
+
+#splash {
+	max-height: 800px;
+}
+
 .infographic-overlay-text:after {
 	background-color: #fff;
 	height: .13em;
