@@ -26,6 +26,19 @@ h2 {
 	text-transform: uppercase;
 }
 
+.smooth-scroll-button .fa {
+	position: absolute;
+	bottom: 50px;
+	font-size: 60px;
+	color: #fff;
+	left: 50%;
+	transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+}
+
 .white-text h2 {
 	color: #fff;
 }
@@ -104,8 +117,19 @@ p:last-child {
 	font-size: 25px;
 }
 
+#page-container:before {
+	background: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(255, 255, 255, 0));
+	height: 250px;
+	left: 0;
+	top: 0;
+	content: '';
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
 .home #main-header {
-	background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(255, 255, 255, 0));
+	background: none;
 }
 
 #main-header .container, footer .container, .container {
