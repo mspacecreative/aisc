@@ -350,6 +350,10 @@ footer #footer-widgets .menu li {
 	.splash-graphic-overlay img {
 		max-width: 300px;
 	}
+	
+	.smooth-scroll-button .fa {
+		bottom: 10px;
+	}
 }
 
 @media (min-width: 1600px) {
@@ -374,5 +378,12 @@ footer #footer-widgets .menu li {
 	content: '';
 	width: 20%;
 	opacity: .85;
+}
+}
+
+@media (max-width: 768px) {
+
+.smooth-scroll-button .fa {
+	bottom: 10px;
 }
 }
