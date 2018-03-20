@@ -26,6 +26,72 @@ h2 {
 	text-transform: uppercase;
 }
 
+.promo-video {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+#our-story {
+	overflow: hidden;
+}
+
+.video-pause-button.show {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.5s ease-in-out;
+}
+
+.video-pause-button {
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease-in-out;
+}
+
+.video-overlay-content {
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.video-pause-button:hover {
+	visibility: visible;
+	opacity: 1;
+}
+
+.fa.fa-pause, .fa.fa-play, .fa.fa-play-circle {
+	font-size: 100px;
+}
+
+.fa.fa-pause, .fa.fa-play {
+	color: #fff;
+}
+
+.fa.fa-play-circle {
+	color: #ffe813;
+	cursor: pointer;
+}
+
+.promo-video-img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 .smooth-scroll-button .fa {
 	position: absolute;
 	bottom: 50px;
