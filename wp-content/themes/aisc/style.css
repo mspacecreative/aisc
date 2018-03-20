@@ -36,6 +36,7 @@ h2 {
 
 #our-story {
 	overflow: hidden;
+	position: relative;
 }
 
 .video-pause-button.show {
@@ -57,11 +58,8 @@ h2 {
 }
 
 .video-overlay-content {
-	position: absolute;
-	top: 50%;
-	z-index: 3;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
 }
 
@@ -83,13 +81,18 @@ h2 {
 	cursor: pointer;
 }
 
+#promo-content-container {
+	display: table;
+	height: 100%;
+}
+
 .promo-video-img {
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 10;
 }
 
 .smooth-scroll-button .fa {
