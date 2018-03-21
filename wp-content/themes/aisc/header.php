@@ -113,7 +113,7 @@
 		</header> <!-- #main-header -->
 		
 		<div class="splash-graphic-overlay">
-			<img src="http://localhost/aisc/wp-content/themes/aisc/img/driving-soc-eco-dev-img.png" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/driving-soc-eco-dev-img.png" alt="">
 		</div>
 
 <?php
