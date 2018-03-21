@@ -54,7 +54,7 @@ $(document).scroll(function() {
 });
 
 $('.fa.fa-play-circle').click(function () {
-	$('.promo-video').get(1).play()
+	$('#promo-video').get(0).play()
 	$('.promo-video-img, .video-overlay-content').fadeOut();
 });
 
