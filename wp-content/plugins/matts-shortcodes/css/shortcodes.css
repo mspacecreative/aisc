@@ -54,6 +54,8 @@ table {
   height: 100%;
   width: 100%;
   z-index: 1;
+  background-size: cover;
+  background-position: center;
 }
 
 #cover:before {
@@ -62,7 +64,6 @@ table {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background-size: cover;
 	z-index: 0;
 }
 
@@ -79,6 +80,17 @@ table {
 	height: 30px;
 	margin-left: -15px;
 	margin-top: -15px;
+}
+
+@media (max-device-width: 1024px) {
+
+#cover {
+	background: rgb(0, 42, 96);
+}
+
+#cover:before {
+	display: none;
+}
 }
 
 /* END COVER OVERLAY STYLES
