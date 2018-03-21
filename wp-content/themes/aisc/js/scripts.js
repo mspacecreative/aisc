@@ -53,10 +53,8 @@ $(document).scroll(function() {
   }
 });
 
-$("#mejs_5891930928603457_html5").get(0).play();
-
 $('.fa.fa-play-circle').click(function () {
-	$('.promo-video').get(0).play()
+	$('.promo-video').get(1).play()
 	$('.promo-video-img, .video-overlay-content').fadeOut();
 });
 
