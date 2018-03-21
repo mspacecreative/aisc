@@ -191,6 +191,7 @@ p:last-child {
 	background: #00328f;
 	position: absolute;
 	padding: 15px 0;
+	z-index: 10;
 }
 
 .member .et_pb_button:hover {
