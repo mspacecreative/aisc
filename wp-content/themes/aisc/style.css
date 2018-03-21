@@ -230,7 +230,7 @@ p:last-child {
 }
 
 .infographic-overlay-text img {
-	width: 90%;
+	width: 70%;
 }
 
 .wpcf7 p {
@@ -275,7 +275,7 @@ p:last-child {
 }
 
 .infographic-overlay-mobile img {
-	max-width: 70%;
+	max-width: 50%;
 }
 
 /*#members:before {
@@ -386,6 +386,7 @@ footer #footer-widgets .menu li {
 
 .infographic-overlay-mobile {
 	display: block;
+	border-bottom: .01em solid #fff;
 }
 
 .infographic-overlay-text {
@@ -467,5 +468,16 @@ body {
 
 .smooth-scroll-button .fa {
 	bottom: 0;
+}
+
+.video-overlay-content h2 {
+	margin-bottom: 25px;
+}
+}
+
+@media (min-width: 1025px) {
+
+.infographic-overlay-text img {
+    width: 85%;
 }
 }
