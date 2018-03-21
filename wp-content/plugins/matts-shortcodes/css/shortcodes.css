@@ -49,11 +49,21 @@ table {
 ------------------------------------------*/
 
 #cover {
-  background: #002a60;
+  background: url(img/cover-img.jpg);
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 999999;
+  z-index: 1;
+}
+
+#cover:before {
+	content: '';
+	background: rgba(0, 42, 96, .5);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	z-index: 0;
 }
 
 #cover .fa-spinner {

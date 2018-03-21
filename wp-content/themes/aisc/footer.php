@@ -45,5 +45,8 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 <?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
 
 	<?php wp_footer(); ?>
+	<script>
+		objectFitVideos();
+	</script>
 </body>
 </html>

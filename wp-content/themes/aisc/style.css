@@ -26,12 +26,21 @@ h2 {
 	text-transform: uppercase;
 }
 
-.promo-video {
+.promo-video, .splash-video {
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
 	position: relative;
+}
+
+.splash-video {
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+
+#splash > div {
+	height: 100%;
 }
 
 #our-story {
@@ -145,6 +154,16 @@ p:last-child {
 .infographic-overlay-text img.reveal {
 	opacity: 1;
 	transition: 1s ease-in-out;
+}
+
+.splash-graphic-overlay {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 9999;
+	width: 90%;
+	bottom: 100px;
+	max-width: 1280px;
 }
 
 .splash-graphic-overlay img {
