@@ -3,7 +3,7 @@
 <div class="members-container">
 	<div class="vert-line"></div>
 	
-	<?php $args = array('post_type' => 'Members', 'order' => 'ASC'); ?>
+	<?php $args = array('post_type' => 'members', 'order' => 'ASC'); ?>
 	<?php $loop = new WP_Query($args); ?>
 	<?php if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
 	
