@@ -8,7 +8,7 @@ $(this).children().toggleClass('fa-angle-down fa-angle-up');
 });
 
 // HAMBURGER ICON ANIMATION
-$('.hamburger').click(function() {
+$('.hamburger, .body-overlay').click(function() {
 	$('.hamburger, body').toggleClass('is-active');
 });
 
