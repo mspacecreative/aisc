@@ -69,5 +69,6 @@ $(document).ready(function() {
        img.replaceWith(div);
      });
      
-     $('.splash-graphic-overlay').css('z-index', '8');
+     //$('.splash-graphic-overlay').css('z-index', '8');
+     $('.stickymenu').css('z-index', '11');
  });
