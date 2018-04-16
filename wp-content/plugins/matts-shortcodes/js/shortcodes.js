@@ -68,4 +68,6 @@ $(document).ready(function() {
        });
        img.replaceWith(div);
      });
+     
+     $('.splash-graphic-overlay').css('z-index', '8');
  });
