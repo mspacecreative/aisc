@@ -49,23 +49,24 @@ table {
 ------------------------------------------*/
 
 #cover {
-  background: url(img/cover-img.jpg);
+  /*background: url(img/cover-img.jpg);*/
+  background: rgb(0, 42, 96);
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 1;
+  z-index: 999999;
   background-size: cover;
   background-position: center;
 }
 
-#cover:before {
+/*#cover:before {
 	content: '';
 	background: rgba(0, 42, 96, .5);
 	position: fixed;
 	height: 100%;
 	width: 100%;
 	z-index: 0;
-}
+}*/
 
 #cover .fa-spinner {
 	font-size: 30px;
