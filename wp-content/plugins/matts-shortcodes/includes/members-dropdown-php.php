@@ -24,7 +24,7 @@
 			$link = get_field('member_link');
 			
 			if ( $link ): ?>
-			<a class="et_pb_button" href="<?php echo $link; ?>" target="_blank">Visit Site</a>
+			<a class="et_pb_button" href="<?php echo $link; ?>" target="_blank">Learn more</a>
 			<?php endif; ?>
 			
 		</div>
