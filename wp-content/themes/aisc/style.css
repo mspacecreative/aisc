@@ -170,6 +170,8 @@ p:last-child {
 	max-width: 600px;
 	height: auto;
 	width: 100%;
+	padding: 20px;
+	background: rgba(255, 255, 255, .75);
 }
 
 #recent-news:before {
