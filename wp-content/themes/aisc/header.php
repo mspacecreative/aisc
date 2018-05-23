@@ -111,10 +111,6 @@
 				</div>
 			</div>
 		</header> <!-- #main-header -->
-		
-		<div class="splash-graphic-overlay">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/driving-soc-eco-dev-img.png" alt="">
-		</div>
 
 <?php
 	$product_tour_enabled = et_builder_is_product_tour_enabled();
