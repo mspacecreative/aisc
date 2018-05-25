@@ -214,6 +214,7 @@ p:last-child {
 #splash .et_pb_code_inner {
 	position: relative;
 	width: 100%;
+	height: 100%;
 }
 
 .home #page-container:before {
@@ -465,7 +466,7 @@ footer #footer-widgets .menu li {
 }
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
    #splash .et_pb_code_inner {
    	height: 100vh;
    }
@@ -473,4 +474,4 @@ footer #footer-widgets .menu li {
    .splash-video {
    	height: 100%;
    }
-}
+}*/
