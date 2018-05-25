@@ -35,7 +35,9 @@ h2 {
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .splash-video {
