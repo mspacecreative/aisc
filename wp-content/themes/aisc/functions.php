@@ -39,7 +39,7 @@ function footer_scripts() {
 	wp_register_script('images-loaded', 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js', array('jquery'), null, true);
 	wp_enqueue_script('images-loaded');
 	
-	wp_register_script('object-fit', get_stylesheet_directory_uri() . 'js/object-fit-videos.min.js', array('jquery'), null, true);
+	wp_register_script('object-fit', get_stylesheet_directory_uri() . '/js/fitie.js', array('jquery'), null, true);
 	wp_enqueue_script('object-fit');
 }
 
