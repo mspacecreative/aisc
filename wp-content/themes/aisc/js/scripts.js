@@ -2,9 +2,9 @@ function mainContentPadding() {
 	$('#main-content > .container').css('padding-top', $('#main-header').outerHeight() + 50);
 }
 
-/*function viewportHeight() {
+function viewportHeight() {
 	$('.splash').outerHeight($(window).height());
-}*/
+}
 
 function videoHeight() {
 	$('.promo-video').height($('.video-overlay').height());
@@ -12,14 +12,14 @@ function videoHeight() {
 
 // DOCUMENT READY
 $(document).ready(function () {
-    //viewportHeight();
+    viewportHeight();
     mainContentPadding();
     videoHeight();
 });
 
 // WINDOW RESIZE
 $(window).resize(function () {
-    //viewportHeight();
+    viewportHeight();
     mainContentPadding();
     videoHeight();
 });
