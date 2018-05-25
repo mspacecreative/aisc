@@ -170,8 +170,8 @@ p:last-child {
 	max-width: 600px;
 	height: auto;
 	width: 100%;
-	padding: 15px;
-	background: rgba(255, 255, 255, .85);
+	/*padding: 15px;
+	background: rgba(255, 255, 255, .85);*/
 	display: block;
 }
 
