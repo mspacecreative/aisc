@@ -466,7 +466,11 @@ footer #footer-widgets .menu li {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   .splash-video {
+   #splash .et_pb_code_inner {
    	height: 100vh;
+   }
+   
+   .splash-video {
+   	height: 110vh;
    }
 }
