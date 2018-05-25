@@ -31,10 +31,11 @@ h2 {
 }
 
 .promo-video, .splash-video {
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 .splash-video {
@@ -212,8 +213,9 @@ p:last-child {
 }
 
 #splash .et_pb_code_inner {
-	position: absolute;
-	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+	position: relative;
 }
 
 .home #page-container:before {
