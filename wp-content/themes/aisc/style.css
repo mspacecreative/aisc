@@ -463,3 +463,9 @@ footer #footer-widgets .menu li {
     width: 85%;
 }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   .splash-video {
+   	height: 100vh;
+   }
+}
