@@ -12,7 +12,6 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<?php elegant_description(); ?>
 	<?php elegant_keywords(); ?>
